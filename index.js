@@ -29,9 +29,9 @@ function createPassword() {
         passwordLength = 10;
     }
     if (passwordLength < 5) {
-        alert("Password length is too short. Choose a length from 5 to 15 characters");
+        alert("Password length is too short. Choose a password length from 5 to 15 characters");
     } else if (passwordLength > 15) {
-        alert("Password length is too long. Choose a length from 5 to 15 characters")
+        alert("Password length is too long. Choose a password length from 5 to 15 characters")
     } else {
         if (!hasNumbers && !hasSymbols) {
             listToUse = lettersOnly;
