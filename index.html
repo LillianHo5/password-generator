@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <p id="title">
+        Generate a <br />
+        <span id="header">random password</span>
+      </p>
+      <p id="subtitle">Never use an insecure password again.</p>
+      <div class="length-container">
+        <p>Password Length:</p>
+        <input type="text" id="password-length" placeholder="From 5 to 15 characters (10 default)"> <br>
+      </div>
+      <div class="customization-container">
+        <p>Password Customization (skip to keep both): </p>
+        <button class="btn" id="no-numbers" onclick="removeNumbers()">No numbers</button>
+        <button class="btn" id="no-symbols" onclick="removeSymbols()">No symbols</button>
+      </div>
+      <button class="btn" id="generate-password" onclick="createPassword()">Generate passwords</button>
+      <button class="btn" id="reset" onclick="reset()">Reset</button>
+      <hr />
+      <div class="password-container">
+        <p class="password-box" id="password1" onclick="copyPassword('password1')"></p>
+        <p class="password-box" id="password2" onclick="copyPassword('password2')"></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

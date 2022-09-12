@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #1f2937;
+  font-family: "Inter";
+  color: white;
+}
+
+hr {
+  border: 1px solid #2f3e53;
+}
+
+input[type="text"] {
+  background: #273549;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.btn {
+  background-color: #4adf86;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 17px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #10b981;
+  cursor: pointer;
+}
+
+.length-container {
+  margin-bottom: -45px;
+}
+
+.password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-box {
+  height: 30px;
+  width: 220px;
+  background: #273549;
+  border: none;
+  border-radius: 6px;
+  margin: 35px 12px;
+  text-align: center;
+  padding-top: 10px;
+  color: #4adf86;
+}
+
+.password-box:hover {
+  cursor: pointer;
+}
+
+#title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  /* margin-top: 50%; */
+  margin-bottom: 5px;
+}
+
+#no-symbols {
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+#subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #d5d4d8;
+  margin-bottom: 51px;
+}
+
+#password-length {
+  width: 215px;
+  margin-bottom: 100px;
+}
+span#header {
+  color: #4adf86;
+}
+
+#generate-password {
+  padding: 15px 20px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+#generate-password:hover {
+  padding: 18px 23px;
+}
+
+#reset {
+  background-color: #047857;
+  margin-left: 20px;
+}
+
+#reset:hover {
+  background-color: #065f46;
+}
